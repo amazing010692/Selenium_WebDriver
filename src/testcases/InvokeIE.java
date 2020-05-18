@@ -12,7 +12,8 @@ public class InvokeIE {
 		capabilities.setCapability(InternetExplorerDriver.IGNORE_ZOOM_SETTING, true);
 		
 		System.setProperty("webdriver.ie.driver", "C:\\Users\\hello\\Documents\\SELENIUM\\Browser_Executables\\IEDriverServer.exe");
-		InternetExplorerDriver driver = new InternetExplorerDriver();
+		@SuppressWarnings("deprecation")
+		InternetExplorerDriver driver = new InternetExplorerDriver(capabilities);
 		driver.get("http://way2automation.com/");		
 
 	}
