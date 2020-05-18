@@ -9,6 +9,7 @@ public class InvokeChrome {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\hello\\Documents\\SELENIUM\\Browser_Executables\\chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
 		driver.get("http://way2automation.com/");
+		
 	}
 
 }
